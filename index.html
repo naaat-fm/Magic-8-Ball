@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Magic Eight Ball</title>
+    <meta name="author" content="Natalia Fernández Morales" />
+    <meta name="description" content="Assigment2-UselessWeb" />
+
+    <!--STYLE/JS SHEETS-->
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="scripts.js"></script>
+    <!--STYLE/JS SHEETS-->
+
+    <!--FONTS-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400..700&display=swap"
+      rel="stylesheet"
+    />
+    <!--FONTS-->
+  </head>
+  <body>
+    <div class="container">
+      <h1>Magic Eight Ball</h1>
+      <div class="question-form">
+        <label for="username">Enter your name:</label>
+        <input type="text" id="username" placeholder="Your name" />
+      </div>
+      <div class="question-form">
+        <label for="question">Enter your question:</label>
+        <input type="text" id="question" placeholder="Your question" />
+        <button onclick="generateResponse()">Ask</button>
+      </div>
+      <div id="response" class="response"></div>
+    </div>
+  </body>
+</html>

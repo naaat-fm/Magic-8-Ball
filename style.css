@@ -1,0 +1,61 @@
+body {
+  font-family: "Kode Mono", monospace;
+  background-color: #f0f0f0;
+  margin: 0;
+  padding: 0;
+  background-image: url(img/Magic8Ball.png);
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.container {
+  max-width: 600px;
+  margin: 50px auto;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+.question-form {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+label {
+  font-weight: bold;
+}
+
+input[type="text"] {
+  font-family: "Kode Mono", monospace;
+  width: 200px;
+  padding: 8px;
+  margin: 0 10px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  text-align: center;
+}
+
+button {
+  padding: 8px 16px;
+  border: none;
+  background-color: #7b1af2;
+  color: #fff;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #5a09fb;
+}
+
+.response {
+  text-align: center;
+  font-size: 18px;
+  margin-top: 20px;
+}
